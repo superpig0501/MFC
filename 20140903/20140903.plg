@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 20140903 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Owen\AppData\Local\Temp\RSP120B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/20140903.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Seclab\Github\MFC\20140903\20140903View.cpp"
+]
+Creating command line "cl.exe @C:\Users\Owen\AppData\Local\Temp\RSP120B.tmp" 
+Creating temporary file "C:\Users\Owen\AppData\Local\Temp\RSP120C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/20140903.pdb" /debug /machine:I386 /out:"Debug/20140903.exe" /pdbtype:sept 
+.\Debug\20140903.obj
+.\Debug\20140903Doc.obj
+.\Debug\20140903View.obj
+.\Debug\MainFrm.obj
+.\Debug\Prop1.obj
+.\Debug\Prop2.obj
+.\Debug\Prop3.obj
+.\Debug\PropSheet.obj
+.\Debug\StdAfx.obj
+.\Debug\20140903.res
+]
+Creating command line "link.exe @C:\Users\Owen\AppData\Local\Temp\RSP120C.tmp"
+<h3>Output Window</h3>
+Compiling...
+20140903View.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/20140903.bsc"  .\Debug\StdAfx.sbr .\Debug\20140903.sbr .\Debug\20140903Doc.sbr .\Debug\20140903View.sbr .\Debug\MainFrm.sbr .\Debug\Prop1.sbr .\Debug\Prop2.sbr .\Debug\Prop3.sbr .\Debug\PropSheet.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+20140903.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
